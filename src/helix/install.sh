@@ -10,7 +10,7 @@ PKG=helix-${VERSION}-${ARCH}-${OS}
 
 mkdir /tmp/helix-install
 cd /tmp/helix-install
-curl -LO "https://github.com/helix-editor/helix/releases/download/${VERSION}/${PKG}.tar.xz"
+curl -LO "https://github.com/helix-editor/helix/releases/download/${VERSION}/${PKG}.tar.xz"
 tar xJf "${PKG}.tar.xz"
 mv "${PKG}/hx" /usr/local/bin/
 mkdir -p /home/${_REMOTE_USER}/.config/helix
