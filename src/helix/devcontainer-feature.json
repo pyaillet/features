@@ -1,0 +1,17 @@
+{
+    "name": "Install the helix editor",
+    "id": "helix",
+    "version": "0.0.1",
+    "description": "A feature to add the helix editor to your devenv",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "25.01.1",
+            "description": "Choose the version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/sshd:1"
+    ]
+}

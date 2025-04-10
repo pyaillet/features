@@ -1,0 +1,11 @@
+{
+    "name": "Lima-vm installation",
+    "id": "lima-vm",
+    "version": "0.0.1",
+    "description": "A lima-vm install",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/go"
+    ]
+}
