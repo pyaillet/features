@@ -3,8 +3,7 @@ set -e
 
 echo "Activating feature 'lima-vm'"
 
-TMP_DIR=$(mktemp)
-mkdir "${TMP_DIR}"
+TMP_DIR=$(mktemp -d)
 cd "${TMP_DIR}"
 git clone https://github.com/lima-vm/lima
 cd lima
